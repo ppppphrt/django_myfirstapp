@@ -1,0 +1,55 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# If you are using WhiteNoise with Django
+/static/
+
+# Virtual environment
+venv/
+.env
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Pytest / Coverage
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+htmlcov/
+coverage.xml
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Migrations (optional, ถ้าอยากเก็บ migrations ให้ลบออกบรรทัดนี้)
+*/migrations/__pycache__/
+*/migrations/*.py
+!*/migrations/__init__.py
